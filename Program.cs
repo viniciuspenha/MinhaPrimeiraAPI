@@ -1,4 +1,7 @@
 
+using MinhaPrimeiraAPI.domain;
+using MinhaPrimeiraAPI.infra;
+
 namespace MinhaPrimeiraAPI
 {
     public class Program
@@ -14,6 +17,7 @@ namespace MinhaPrimeiraAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddTransient<IProdutoRepository, ProdutoRepository>();
             builder.WebHost.ConfigureKestrel(options =>
             {
                 options.ListenAnyIP(8080); // Define a porta HTTP

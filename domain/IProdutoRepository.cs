@@ -1,4 +1,6 @@
-﻿namespace MinhaPrimeiraAPI.model
+﻿using MinhaPrimeiraAPI.model;
+
+namespace MinhaPrimeiraAPI.domain
 {
     public interface IProdutoRepository
     {

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MinhaPrimeiraAPI.model;
+using MinhaPrimeiraAPI.domain;
 
 namespace MinhaPrimeiraAPI.infra
 {

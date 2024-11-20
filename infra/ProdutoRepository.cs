@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
+﻿using MinhaPrimeiraAPI.domain;
 using MinhaPrimeiraAPI.model;
 
 namespace MinhaPrimeiraAPI.infra
